@@ -1,0 +1,38 @@
+.HeaderWrap {
+    width: 100%;
+    height: var(--header-height);
+    background: var(--color-white);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+
+.LogoWrap {
+    margin-left: 50px;
+    user-select: none;
+}
+
+.MenuWrap {
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.NavLink {
+    font-weight: 400;
+    font-size: 18px;
+
+
+}
+
+.NavLink:hover {
+    color: var(--color-red);
+}

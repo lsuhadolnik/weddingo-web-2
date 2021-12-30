@@ -1,0 +1,37 @@
+.HomeWrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.LeftWrap {
+    width: 50%;
+    margin: 60px 0 0 160px;
+}
+
+.RightWrap {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.MainTitle {
+    font-size: 80px;
+    font-weight: normal;
+    line-height: 90px;
+}
+
+.MainSubtitle {
+    font-size: 25px;
+
+    width: 600px;
+    line-height: 40px;
+    margin-top: 30px;
+}
+
+.MainCTA {
+    margin-top: 80px;
+}
+
+.MainCTA a {
+    font-size: 30px;
+}
