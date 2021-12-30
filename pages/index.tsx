@@ -1,24 +1,15 @@
-import CallToAction from 'components/Buttons/CallToAction'
 import IntroSlide from 'components/Home/IntroSlide'
+import TestimonialsSlide from 'components/Home/TestimonialsSlide'
 import WhySlide from 'components/Home/WhySlide'
-import { ProductLoginLink } from 'content/Constants'
 import { requireCollection } from 'lib/requireCollection'
 import { requireSiteParts } from 'lib/requireSitePart'
-import { CMSCollections } from 'lib/types'
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import Image from 'next/image'
-import { useEffect } from 'react'
 import Layout from '../components/Layout'
 
 
 
-interface IProps {
-    siteParts: {[partName: string]: string};
-    collections: CMSCollections;
-}
-
-const Home: NextPage = (props: IProps) => {
+const Home: NextPage = (props: any) => {
 
 
     return (
@@ -30,6 +21,8 @@ const Home: NextPage = (props: IProps) => {
             <IntroSlide siteParts={props.siteParts}/>
 
             <WhySlide facts={props.collections['whyFacts']} />
+
+            <TestimonialsSlide testimonials={props.collections['testimonials']} />
 
         </Layout>
     )
@@ -45,12 +38,13 @@ export const getStaticProps = async () => {
     ]);
 
     const whyFacts = await requireCollection('whyFacts');
+    const testimonials = await requireCollection('testimonials');
 
     return {
         props: {
             siteParts,
             collections: {
-                whyFacts
+                whyFacts, testimonials
             }
         }
     }

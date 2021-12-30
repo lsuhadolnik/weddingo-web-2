@@ -1,6 +1,7 @@
 import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
+import yaml from 'js-yaml'
 
 const rootDir = path.join(process.cwd(), 'content')
 
@@ -16,7 +17,11 @@ export const requireCollection = async (collectionName: string): Promise<Array<{
             const fileContents = await fs.promises.readFile(fullPath, 'utf8');
 
             // Use gray-matter to parse the post metadata section
-            const {content, data} = matter(fileContents);
+            const {content, data} = matter(fileContents, {
+                engines: {
+                  yaml: s => yaml.load(s, { schema: yaml.JSON_SCHEMA })
+                }
+              });
             return {content, data};
         })
     );
