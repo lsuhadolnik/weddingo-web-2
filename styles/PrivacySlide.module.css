@@ -1,0 +1,48 @@
+.PrivacySlide {
+    margin: 200px;
+}
+
+.PrivacySlide h1 {
+    font-size: 60px;
+    margin: 0;
+}
+
+.PrivacySlide p {
+    font-size: 30px;
+    margin: 0;
+}
+
+.PrivacySlide ul {
+    display: flex;
+    list-style-type: none;
+    margin-top: 130px;
+    margin-bottom: 180px;
+    padding: 0;
+    gap: 50px;
+    
+}
+
+.PrivacySlide ul li {
+    font-size: 20px;
+    padding: 20px;
+    margin: 0;
+}
+
+.PrivacySlide ul li::before {
+    content: url(/images/lock.svg);
+    color: transparent;
+    width: 60px;
+    height: 100px;
+    overflow: hidden;
+    display: block;
+}
+
+.PrivacySlide ul li p {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.PrivacySlide ul li p:first-child {
+    margin-top: 0;
+    font-size: 30px;
+}

@@ -1,4 +1,5 @@
 import IntroSlide from 'components/Home/IntroSlide'
+import PrivacySlide from 'components/Home/PrivacySlide'
 import TestimonialsSlide from 'components/Home/TestimonialsSlide'
 import WhySlide from 'components/Home/WhySlide'
 import { requireCollection } from 'lib/requireCollection'
@@ -24,6 +25,10 @@ const Home: NextPage = (props: any) => {
 
             <TestimonialsSlide testimonials={props.collections['testimonials']} />
 
+            <PrivacySlide >
+                {props.siteParts['privacy-notice']}
+            </PrivacySlide>
+
         </Layout>
     )
 }
@@ -34,7 +39,8 @@ export const getStaticProps = async () => {
     
     const siteParts = await requireSiteParts([
         'page-intro-title',
-        'page-intro-subtitle'
+        'page-intro-subtitle',
+        'privacy-notice'
     ]);
 
     const whyFacts = await requireCollection('whyFacts');
