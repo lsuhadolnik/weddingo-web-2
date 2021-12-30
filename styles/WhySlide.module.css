@@ -1,0 +1,47 @@
+.WhySlideWrap {
+    height: calc(100vh - var(--header-height));
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.WhySlideTitle {
+    font-family: var(--font-family-header);
+    font-size: 79px;
+    transform-origin: right bottom;
+    transform: rotate(-90deg);
+    position: absolute;
+    top: -200px;
+    left: -672px;
+    width: calc(100vh - var(--header-height));
+}
+
+.WhySlideElement {
+    height: 100%;
+    width: 800px;
+    position: relative;
+    overflow: hidden;
+}
+
+.WhySlideTitleElement {
+    width: 200px;
+}
+
+.WhySlideFact {
+    background-color: white;
+}
+
+.FactTextWrap {
+    padding: 20px;
+}
+
+.FactTitle {
+    font-size: 30px;
+}
+
+.FactDescription {
+    font-size: 18px;
+}
+
+
+

@@ -25,13 +25,17 @@ const IntroSlide = (props: IProps) => {
             </div>
 
             <div className={styles.MainCTA}>
-                <CallToAction  aHref={ProductLoginLink}>Ustvari svoj Weddingo</CallToAction>
+                <CallToAction aHref={ProductLoginLink}>Ustvari svoj Weddingo</CallToAction>
             </div>
         </div>
 
-        <div className={styles.RightWrap}>
+        <div className={styles.RightWrap} style={{
+            backgroundImage: `url(/images/front-page-right-graphics.svg)`,
+            backgroundRepeat: 'no-repeat',
+            backgroundSize: 'cover'
+        }}>
             {/** RIGHT */}
-            <Image src={'/images/front-page-right-graphics.svg'} width={821} height={831} />
+            
         </div>
 </div>
 }
