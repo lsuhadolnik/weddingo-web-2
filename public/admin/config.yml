@@ -13,7 +13,7 @@ collections:
     label: "SiteParts" # Used in the UI
     folder: "content/siteParts" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
-    slug: "{{slug}}"
+    slug: "{{name}}"
     fields: # The fields for each document, usually in front matter
       - {label: "Name", name: "name", widget: "string"}
       - {label: "Content", name: "content", widget: "markdown"}
@@ -22,7 +22,7 @@ collections:
     label: "Testimonials" # Used in the UI
     folder: "content/testimonials" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    slug: "{{year}}-{{month}}-{{day}}-{{title}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Wedding Date", name: "weddingDate", widget: "datetime"}
@@ -33,7 +33,7 @@ collections:
     label: "Why Facts" # Used in the UI
     folder: "content/whyFacts" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    slug: "{{year}}-{{month}}-{{day}}-{{title}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Order", name: "order", widget: "number"}
