@@ -1,0 +1,58 @@
+
+.FooterWrap {
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    
+}
+
+.FooterHR {
+    width: 100%;
+    height: 2px;
+    background-color: #eee;
+}
+
+.FooterContainer {
+    width: 80vw;
+    height: 100%;
+}
+
+.FooterColumns {
+    display: flex;
+    height: 100%;
+    margin-top: 10px;
+}
+
+.FooterColumn {
+    flex: 1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.LogoColumn {
+    justify-content: flex-end;
+}
+
+.FooterTitle {
+    font-size: 14px;
+    color: #B2B2B2;
+}
+
+.FooterTitle {
+    margin-top: 20px;
+}
+
+.FooterLink {
+    font-size: 20px;
+    margin-top: 8px;
+}
+
+.FooterLink:hover {
+    color: var(--color-red);
+    cursor: pointer;
+}
+
