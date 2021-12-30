@@ -1,10 +1,11 @@
 import CallToAction from 'components/Buttons/CallToAction';
 import { ProductLoginLink } from 'content/Constants';
 import Image from 'next/image';
+import ReactMarkdown from 'react-markdown';
 import styles from 'styles/IntroSlide.module.css';
 
 interface IProps {
-
+    siteParts: {[partName: string]: string}
 }
 
 const IntroSlide = (props: IProps) => {
@@ -16,15 +17,11 @@ const IntroSlide = (props: IProps) => {
         <div className={styles.LeftWrap}>
             {/** LEFT */}
             <h1 className={styles.MainTitle}>
-                Da bo tvoja <br/>
-                poroka trajala <br/>
-                dlje...
+                <ReactMarkdown>{props.siteParts['page-intro-title']}</ReactMarkdown>
             </h1>
             
             <div className={styles.MainSubtitle}>
-                Ni treba, da je tvojega najlepšega dne konec <br />
-                že naslednji dan. Ohrani dobro vzdušje <br />
-                še dolgo po tem.
+            <ReactMarkdown>{props.siteParts['page-intro-subtitle']}</ReactMarkdown>
             </div>
 
             <div className={styles.MainCTA}>

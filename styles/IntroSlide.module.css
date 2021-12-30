@@ -28,6 +28,10 @@
     margin-top: 30px;
 }
 
+.LeftWrap p {
+    margin: 0;
+}
+
 .MainCTA {
     margin-top: 80px;
 }
