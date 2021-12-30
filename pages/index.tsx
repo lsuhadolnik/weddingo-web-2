@@ -10,6 +10,8 @@ const Home: NextPage = () => {
 
     useEffect(() => {
 
+        alert("Hello!");
+
         const w = window as any;
 
         if (w.netlifyIdentity) {
@@ -63,7 +65,7 @@ const Home: NextPage = () => {
                     </a>
 
                     <a
-                        href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+                        onClick={() => {alert("Hello!")}}
                         className={styles.card}
                     >
                         <h2>Deploy &rarr;</h2>
@@ -72,6 +74,7 @@ const Home: NextPage = () => {
                         </p>
                     </a>
                 </div>
+                <button>Hello?</button>
             </main>
 
             <footer className={styles.footer}>
