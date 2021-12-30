@@ -19,7 +19,7 @@ export const requireCollection = async (collectionName: string): Promise<Array<{
             // Use gray-matter to parse the post metadata section
             const {content, data} = matter(fileContents, {
                 engines: {
-                  yaml: s => yaml.load(s, { schema: yaml.JSON_SCHEMA })
+                  yaml: s => yaml.load(s, { schema: yaml.JSON_SCHEMA }) as any
                 }
               });
             return {content, data};

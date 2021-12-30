@@ -23,7 +23,7 @@ const TestimonialsSlide = (props: IProps) => {
             {props.testimonials.map((t) => (
                 <div key={t.data.title} className={styles.TestimonialsCard}>
                     <div className={styles.TestimonialsCardImage}>
-                        <Image src={t.data.thumbnail} layout="fill" objectFit="cover" objectPosition="cover" />
+                        <Image alt={''} src={t.data.thumbnail} layout="fill" objectFit="cover" objectPosition="cover" />
                     </div>
                     <div className={styles.TestimonialsCardTexts}>
                         <div className={styles.TestimonialsCardTitle}>

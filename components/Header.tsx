@@ -24,7 +24,7 @@ const Header = (props: IProps) => {
         <div>
             {/* LEFT */}
             <div className={styles.LogoWrap}>
-                <Image src={'/images/header-logo.svg'} width={187} height={47.9}/>
+                <Image alt={'Weddingo logo'} src={'/images/header-logo.svg'} width={187} height={47.9}/>
             </div>
         </div>
         <div>
