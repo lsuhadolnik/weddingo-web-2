@@ -55,3 +55,16 @@
     font-size: 16px;
     line-height: 25px;
 }
+
+@media screen and (max-width: 1200px) {
+    .TestimonialsTitles {
+        text-align: center;
+    }
+    .TestimonialsWrap {
+        height: auto;
+    }
+    .TestimonialsCardsWrap {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}

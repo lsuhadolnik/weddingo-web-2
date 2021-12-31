@@ -46,3 +46,35 @@
     margin-top: 0;
     font-size: 30px;
 }
+
+@media screen and (max-width: 1000px) {
+    .PrivacySlide {
+        margin: 20px
+    }
+
+    .PrivacySlide h1 {
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .PrivacySlide p {
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .PrivacySlide ul {
+        margin-top: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .PrivacySlide ul li {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .PrivacySlide ul li::before {
+        justify-self: center;
+    }
+}

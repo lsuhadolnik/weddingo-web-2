@@ -56,3 +56,15 @@
     cursor: pointer;
 }
 
+@media screen and (max-width: 900px) {
+    .FooterColumns {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+
+    .FooterColumn {
+        margin-bottom: 20px;
+        width: 300px;
+    }
+}
