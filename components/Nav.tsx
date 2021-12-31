@@ -14,6 +14,10 @@ const Nav = (props: IProps) => {
             link: '/how-it-works',
         },
         {
+            title: 'Najina zgodba',
+            link: '/story',
+        },
+        {
             title: 'Cenik',
             link: '/pricing',
         }
