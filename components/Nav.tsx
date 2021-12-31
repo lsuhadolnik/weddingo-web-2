@@ -1,6 +1,7 @@
 import styles from 'styles/Nav.module.css';
 import Image from 'next/image';
 import Link from 'next/link';
+import { useState } from 'react';
 
 interface IProps {
 
@@ -23,6 +24,8 @@ const Nav = (props: IProps) => {
         }
     ]
 
+    const [menuOpen, setMenuOpen] = useState(false);
+
     return <div className={styles.HeaderWrap}>
         {/* WRAP */}
         <div>
@@ -35,7 +38,10 @@ const Nav = (props: IProps) => {
         </div>
         <div>
             {/* RIGHT */}
-            <div className={styles.MenuWrap}>
+            <div className={styles.OpenMenuIcon} onClick={() => setMenuOpen(!menuOpen)}>
+                Menu
+            </div>
+            <div className={[styles.MenuWrap, (menuOpen ? styles.MenuOpen : styles.MenuClosed)].join(' ')}>
                 {/* MENU */}
                 {NavItems.map(i => (
                     <div key={i.link} className={styles.NavLink}>
@@ -45,6 +51,10 @@ const Nav = (props: IProps) => {
                 <a className={"Button CallToAction "} href="https://footo.me/m">
                     Prijava
                 </a>
+
+                <div className={[styles.CloseMenuIcon, styles.NavLink].join(' ')} onClick={() => setMenuOpen(!menuOpen)}>
+                    Zapri
+                </div>
             </div>
         </div>
     </div>
