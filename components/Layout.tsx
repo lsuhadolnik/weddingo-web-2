@@ -1,4 +1,4 @@
-import Header from "./Header";
+import Nav from "./Nav";
 
 import styles from 'styles/Layout.module.css';
 import Footer from "./Footer";
@@ -11,7 +11,7 @@ const Layout = (props: IProps) => {
 
 
     return <div>
-        <Header />
+        <Nav />
         <div className={styles.MainMargin}>
             {props.children}
         </div>

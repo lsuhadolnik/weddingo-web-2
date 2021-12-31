@@ -17,6 +17,7 @@
 .LogoWrap {
     margin-left: 50px;
     user-select: none;
+    cursor: pointer;
 }
 
 .MenuWrap {
