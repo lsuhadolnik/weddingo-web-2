@@ -28,7 +28,7 @@ const HowItWorksIntro = (props: IProps) => {
             </div>
         </div>
         <div className={styles.RightWrap}>
-            <Image src='/images/howItWorksIntroGraphics.svg' layout='fill' objectPosition={'cover'} objectFit={'cover'}/>
+            <Image alt='' src='/images/howItWorksIntroGraphics.svg' layout='fill' objectPosition={'cover'} objectFit={'cover'}/>
         </div>
     </div>
 }

@@ -26,6 +26,6 @@ const HowItWorksPage = (props: IProps) => {
 
 export default HowItWorksPage;
 
-export const getStaticProps = async () => {
-
-}
+// export const getStaticProps = async () => {
+// 
+// }

@@ -31,7 +31,7 @@ const Nav = (props: IProps) => {
         <div>
             {/* LEFT */}
             <div className={styles.LogoWrap}>
-                <Link href={'/'}>
+                <Link href={'/'} passHref>
                     <Image alt={'Weddingo logo'} src={'/images/header-logo.svg'} width={187} height={47.9}/>
                 </Link>
             </div>
@@ -45,7 +45,7 @@ const Nav = (props: IProps) => {
                 {/* MENU */}
                 {NavItems.map(i => (
                     <div key={i.link} className={styles.NavLink}>
-                        <Link href={i.link}>{i.title}</Link>
+                        <Link href={i.link} passHref>{i.title}</Link>
                     </div>
                 ))}
                 <a className={"Button CallToAction "} href="https://footo.me/m">
