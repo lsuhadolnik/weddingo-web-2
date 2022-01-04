@@ -6,3 +6,12 @@ export interface CMSEntry {
     data: {[key: string]: string};
     content: string
 }
+
+export interface HowItWorksSlideData {
+    content: string;
+    data: {
+        title: string;
+        order: number;
+        type: 'text' | 'title' | 'final';
+    }
+}

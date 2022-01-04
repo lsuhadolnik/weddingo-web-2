@@ -6,6 +6,7 @@ import Footer from "./Footer";
 interface IProps {
     children: any;
     className?: string;
+    notPadded?: boolean;
 }
 
 const Layout = (props: IProps) => {
@@ -13,7 +14,7 @@ const Layout = (props: IProps) => {
 
     return <div>
         <Nav />
-        <div className={styles.MainMargin + ' ' + props.className} >
+        <div className={(props.notPadded ? '' : styles.MainMargin) + ' ' + props.className} >
             {props.children}
         </div>
         <Footer />
