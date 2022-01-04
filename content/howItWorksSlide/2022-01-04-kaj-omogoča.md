@@ -1,0 +1,9 @@
+---
+title: Kaj omogoča
+order: 2
+type: text
+---
+Weddingo je aplikacija, ki izboljša 
+vzdušje na poroki, mladoporočencema
+omogoči hiter dostop do spominov in
+izdelavo albuma za tiskanje
