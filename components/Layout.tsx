@@ -2,11 +2,10 @@ import Nav from "./Nav";
 
 import styles from 'styles/Layout.module.css';
 import Footer from "./Footer";
-import { CSSProperties } from "react";
 
 interface IProps {
     children: any;
-    style?: CSSProperties;
+    className?: string;
 }
 
 const Layout = (props: IProps) => {
@@ -14,7 +13,7 @@ const Layout = (props: IProps) => {
 
     return <div>
         <Nav />
-        <div className={styles.MainMargin} style={props.style}>
+        <div className={styles.MainMargin + ' ' + props.className} >
             {props.children}
         </div>
         <Footer />
