@@ -1,7 +1,7 @@
 ---
-title: Kako deluje
+title: "Kako deluje"
 order: 1
-type: text
+type: "title"
 ---
 # Kako deluje?
 

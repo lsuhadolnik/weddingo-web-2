@@ -1,7 +1,7 @@
 ---
 title: "Oblikovanje dogodka"
 order: 9
-type: text
+type: "titleText"
 ---
 # Oblikovanje dogodka
 

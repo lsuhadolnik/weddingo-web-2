@@ -1,7 +1,7 @@
 ---
 title: "Oblikovanje dogodka"
 order: 10
-type: text
+type: "titleText"
 ---
 # Nalaganje prvih fotografij
 

@@ -1,7 +1,7 @@
 ---
 title: "Naslednji dan"
 order: 18
-type: title
+type: "titleText"
 ---
 # Naslednji dan...
 

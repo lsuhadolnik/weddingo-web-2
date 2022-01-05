@@ -1,7 +1,7 @@
 ---
 title: "Priprava QR Kode"
 order: 12
-type: text
+type: "titleText"
 ---
 # Priprava QR Kode
 

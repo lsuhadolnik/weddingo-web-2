@@ -1,7 +1,7 @@
 ---
 title: "Objava informacij"
 order: 11
-type: text
+type: "titleText"
 ---
 # Objava informacij
 

@@ -1,7 +1,7 @@
 ---
 title: "Priprava vabil"
 order: 13
-type: text
+type: "titleText"
 ---
 # Priprava vabil
 

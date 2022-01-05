@@ -1,7 +1,7 @@
 ---
 title: "Portal Weddingo"
 order: 8
-type: text
+type: "titleText"
 ---
 # Portal Weddingo
 

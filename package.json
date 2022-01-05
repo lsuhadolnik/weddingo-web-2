@@ -9,11 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@mdx-js/loader": "^1.6.22",
+    "@next/mdx": "^12.0.7",
     "gray-matter": "^4.0.3",
     "gsap": "^3.9.1",
     "js-yaml": "^4.1.0",
     "lottie-web": "^5.8.1",
     "luxon": "^2.2.0",
+    "mdx": "^0.3.1",
     "next": "12.0.7",
     "react": "17.0.2",
     "react-bodymovin": "^2.0.0",
