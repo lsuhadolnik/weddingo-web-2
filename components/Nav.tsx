@@ -26,13 +26,13 @@ const Nav = (props: IProps) => {
 
     const [menuOpen, setMenuOpen] = useState(false);
 
-    return <div className={styles.HeaderWrap}>
+    return <div className="h-20 bg-white flex justify-between items-center">
         {/* WRAP */}
         <div>
             {/* LEFT */}
-            <div className={styles.LogoWrap}>
+            <div className="pl-2 h-10 relative">
                 <Link href={'/'} passHref>
-                    <Image alt={'Weddingo logo'} src={'/images/header-logo.svg'} width={187} height={47.9}/>
+                    <Image alt={'Weddingo logo'} src={'/images/header-logo.svg'} width={187} height={47.9} />
                 </Link>
             </div>
         </div>
@@ -48,7 +48,7 @@ const Nav = (props: IProps) => {
                         <Link href={i.link} passHref>{i.title}</Link>
                     </div>
                 ))}
-                <a className={"Button CallToAction "} href="https://footo.me/m">
+                <a className={"Button CallToAction "} >
                     Prijava
                 </a>
 

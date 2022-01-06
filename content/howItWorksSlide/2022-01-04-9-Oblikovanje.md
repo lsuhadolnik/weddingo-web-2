@@ -3,7 +3,7 @@ title: "Oblikovanje dogodka"
 order: 9
 type: "titleText"
 ---
-# Oblikovanje dogodka
+## Oblikovanje dogodka
 
 Svoj dogodek sta poimenovala 
 "Poroka Mojca in Lovro" in vnesla 

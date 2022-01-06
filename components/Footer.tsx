@@ -8,7 +8,7 @@ interface IProps {
 const Footer = (props: IProps) => {
 
 
-    return <div className={styles.FooterWrap}>
+    return <div>
         
         <div className={styles.FooterContainer}>
         <div className={styles.FooterHR}></div>

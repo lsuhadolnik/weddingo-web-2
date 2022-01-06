@@ -3,7 +3,7 @@ title: "Priprava QR Kode"
 order: 12
 type: "titleText"
 ---
-# Priprava QR Kode
+## Priprava QR Kode
 
 Nato sta iz Weddinga prenesla QR kodo
 za svate. Svatje jo lahko slikajo in takoj
