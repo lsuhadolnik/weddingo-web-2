@@ -1,4 +1,4 @@
-import CallToAction from "components/Buttons/CallToAction";
+import CallToAction from "components/Elements/CallToAction";
 import MarkdownLoader from "components/Markdown/MarkdownLoader";
 import { HowItWorksSlideData } from "lib/types";
 

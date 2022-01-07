@@ -1,4 +1,4 @@
-import CallToAction from 'components/Buttons/CallToAction';
+import CallToAction from 'components/Elements/CallToAction';
 import Header from 'components/Header';
 import Image from 'next/image';
 import styles from 'styles/HowItWorksIntro.module.css';

@@ -1,4 +1,4 @@
-import CallToAction from 'components/Buttons/CallToAction';
+import CallToAction from 'components/Elements/CallToAction';
 import { ProductLoginLink } from 'content/Constants';
 import Image from 'next/image';
 import ReactMarkdown from 'react-markdown';
