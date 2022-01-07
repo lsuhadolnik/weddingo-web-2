@@ -1,7 +1,9 @@
+import BasicCard from 'components/Cards/BasicCard'
 import IconCard from 'components/Cards/IconCard'
 import PackageCard from 'components/Cards/PackageCard'
 import TestimonailCard from 'components/Cards/TestimonailCard'
 import TransparentCard from 'components/Cards/TransparentCard'
+import CallToAction from 'components/Elements/CallToAction'
 import H1 from 'components/Elements/H1'
 import H2 from 'components/Elements/H2'
 import Icon from 'components/Elements/Icon'
@@ -23,13 +25,12 @@ const Home: NextPage = (props: any) => {
             <Head>
                 <title>Weddingo</title>
             </Head>
-            
 
-            <div className='h-1/4'>
+            {/*<div className='h-1/4'>
                 <div className='relative h-full'>
-                <Image src='/images/uploads/image-2-.jpg' layout='responsive' width={3376} height={6000} objectFit='cover' objectPosition='cover'/>
+                <Image src='/images/icons.svg' layout='responsive' width={375} height={150} objectFit='cover' objectPosition='cover'/>
                 </div>
-            </div>
+            </div>*/}
 
             <TestimonailCard title={'Manca'} subtitle={'13. 7. 2021'}>
                 Weddingo je bila najboljša možna odločitev. Vedela sem, da me bo po koncu poroke zagrabila panika, ker bo vsega konec. Namesto panike sem samo vzela telefon in znova pregledala dogajanje preko slik, ki so jih objavili svatje. Takoj sem bila pomirjena.

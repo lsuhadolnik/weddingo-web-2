@@ -41,6 +41,7 @@ module.exports = {
                 'box': 'url(/images/backgrounds/box.svg)',
                 'heart': 'url(/images/backgrounds/heart.svg)',
                 'bouquet': 'url(/images/backgrounds/bouquet.svg)',
+                'initial': 'url(/images/backgrounds/initial.svg)',
             }
         },
     },
