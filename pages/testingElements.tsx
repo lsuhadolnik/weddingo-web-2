@@ -47,6 +47,8 @@ const Home: NextPage = (props: any) => {
                 </P>
             </IconCard>
 
+            <div className="bg-wedding bg-party-popper bg-box bg-heart bg-bouquet bg-how-it-works" />
+
 
             {/* EMPTY CARD WITH CALL TO ACTION */}
             <TransparentCard className='py-10 bg-heart bg-no-repeat bg-left'>

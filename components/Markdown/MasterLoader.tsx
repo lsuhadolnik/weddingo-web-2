@@ -2,12 +2,14 @@ import BasicCard from "components/Cards/BasicCard";
 import TitleCard from "components/Cards/TitleCard";
 import CallToAction from "components/Elements/CallToAction";
 import CardIcon from "components/Elements/CardIcon";
+import FullWidth from "components/Elements/FullWidth";
 import H1 from "components/Elements/H1";
 import H2 from "components/Elements/H2";
 import Image from "components/Elements/Image";
 import OverweightTitle from "components/Elements/OverweightTitle";
 import P from "components/Elements/P";
 import Spacer from "components/Elements/Spacer";
+import SpacerHalf from "components/Elements/SpacerHalf";
 import Subtitle from "components/Elements/Subtitle";
 import React from "react";
 import MarkdownLoader from "./MarkdownLoader";
@@ -50,8 +52,9 @@ const MasterLoader = (props: IProps) => {
             const children = React.Children.toArray(props.children);
             return <a href='https://footo.me/m'><CallToAction className='my-8'>{children[0]}</CallToAction></a>;
         },
-        Spacer,
+        Spacer, SpacerHalf,
         Image,
+        FullWidth,
     };
 
 

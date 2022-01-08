@@ -10,13 +10,8 @@ const P = (props: IProps) => {
 
     const defaultClasses = "text-xl font-body subpixel-antialiased leading-8";
     const marginClass = props.tight ? '' : 'my-6';
-    let paddingClass = '';
+    let paddingClass = 'px-7';
     
-
-    const children = React.Children.toArray(props.children);
-    if (typeof children[0] === 'string') {
-        paddingClass = 'px-7';
-    }
 
     const classes = [marginClass, paddingClass, defaultClasses, props.className].join(' ')
 

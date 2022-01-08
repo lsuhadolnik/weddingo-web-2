@@ -3,7 +3,7 @@ path: ''
 ---
 
 
-:::TitleCard{class='bg-wedding'}
+:::TitleCard{class='bg-how-it-works'}
 
 ::Spacer
 # Da bo tvoja poroka trajala dlje
@@ -16,10 +16,12 @@ Weddingo je tvoja rešitev za prekratek poročni dan
 
 :::
 
+
+
+
+::FullWidth[![The alt text](/images/pattern.svg)]
+
 ::Spacer
-
-
-![The alt text](/images/pattern.svg)
 
 # Zakaj Weddingo?
 
@@ -45,6 +47,7 @@ Poleg vaju in ekipe pa so tu še svatje, ki imajo svoje telefone ves čas v žep
 
 :::
 
+::SpacerHalf
 # Kaj menijo uporabniki
 
 :::Card
