@@ -37,11 +37,12 @@ module.exports = {
                 "pale-red": "#F9EFEF",
             },
             backgroundImage: {
+                'wedding': 'url(/images/backgrounds/initial.svg)',
                 'party-popper': 'url(/images/backgrounds/party-pop-background.svg)',
                 'box': 'url(/images/backgrounds/box.svg)',
                 'heart': 'url(/images/backgrounds/heart.svg)',
                 'bouquet': 'url(/images/backgrounds/bouquet.svg)',
-                'initial': 'url(/images/backgrounds/initial.svg)',
+                'how-it-works': 'url(/images/backgrounds/how-it-works.svg)',
             }
         },
     },

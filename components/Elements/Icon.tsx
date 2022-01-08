@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 interface IProps {
     name: string;
     width?: number;
@@ -5,7 +7,10 @@ interface IProps {
 
 const Icon = (props: IProps) => {
 
-    return <img src={`/images/icons/${props.name}.svg`} width={props.width || 30} alt='' />
+    const defaultWidth = 30;
+    const size = props.width || defaultWidth
+
+    return <Image src={`/images/icons/${props.name}.svg`} width={size} height={size} alt='' />
 }
 
 export default Icon;

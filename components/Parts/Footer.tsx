@@ -15,19 +15,19 @@ const Footer = (props: IProps) => {
         <div className='px-7 pt-7'><Logo /></div>
         <div className='pt-7'>
             <Subtitle>PRAVNE INFORMACIJE</Subtitle>
-            <P>Pogoji uporabe</P>
-            <P>Politika zasebnosti</P>
-            <P>Plačila in vračila</P>
+            <P tight>Pogoji uporabe</P>
+            <P tight>Politika zasebnosti</P>
+            <P tight>Plačila in vračila</P>
         </div>
 
         <div className='pt-7'>
             <Subtitle>KONTAKT</Subtitle>
-            <P>tvojdan@weddingo.si</P>
+            <P tight>tvojdan@weddingo.si</P>
         </div>
 
         <div className='pt-7'>
             <Subtitle>KONTAKT ZA PODJETJA</Subtitle>
-            <P>partnerji@weddingo.si</P>
+            <P tight>partnerji@weddingo.si</P>
         </div>
     </div>
 }

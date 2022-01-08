@@ -42,7 +42,7 @@ const Nav = (props: IProps) => {
                 <div onClick={() => {setMenuOpen(true)}}><Icon name='menu' /></div>
             </div>
             <div className='w-screen h-2 overflow-hidden'>
-                <img src='/images/header-stripe.svg' height='2' />
+                <img alt='' src='/images/header-stripe.svg' height='2' />
             </div>
         </div>
         <div className='h-16' >&nbsp;</div>

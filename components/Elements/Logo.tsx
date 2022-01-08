@@ -8,7 +8,7 @@ const Logo = (props: IProps) => {
 
 
     return <Link href='/'>
-        <img className="select-none" src='/images/header-logo.svg' width='140' />
+        <img alt='Weddingo logo' className="select-none" src='/images/header-logo.svg' width='140' />
     </Link>;
 }
 

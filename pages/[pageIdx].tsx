@@ -1,67 +1,26 @@
-import CallToAction from "components/Elements/CallToAction";
-import H1 from "components/Elements/H1";
-import H2 from "components/Elements/H2";
-import P from "components/Elements/P";
-import TitleCard from "components/Cards/TitleCard";
-import Layout from "components/Layout";
-import MarkdownLoader from "components/Markdown/MarkdownLoader";
+import MasterPage from "components/Parts/MasterPage";
+import listCollectionElements from "lib/listCollectionElements";
+import loadPageMarkdown from "lib/loadPageMarkdown";
 
-
-const MasterPage = (props: any) => {
-
-    return <Layout>
-        <MarkdownLoader
-                components={{
-                    h1: H1,
-                    h2: H2,
-                    p: P,
-                    TitleCard,
-                    CallToAction: (props: any) => <CallToAction className='my-8'>Pripravi svoj Weddingo zdaj</CallToAction>
-                }}
-            >{
-            props.md
-        }</MarkdownLoader>
-    </Layout>
-    
-    
-}
 
 export default MasterPage;
 
+export const getStaticProps = loadPageMarkdown;
+
 export const getStaticPaths = async () => {
-    const path = require('path');
-    const fs = require('fs');
+    
+    const pages = await (await listCollectionElements('pages')).filter(a => a !== 'index');
 
-    const theDir = path.join(path.join(process.cwd(), 'content'), 'pages');
-    const fileNames = await fs.promises.readdir(theDir);
-
-    const paths = fileNames.map((fn: string) => {
+    const paths = pages.map((p) => {
         return {
             params: {
-                pageIdx: fn.split('.')[0]
+                pageIdx: p
             }
         }
     });
-    console.log(paths);
 
     return {
         paths,
         fallback: false
     }
 };
-
-export const getStaticProps = async ({ params }: any) => {
-    const {pageIdx} = params;
-
-    const path = require('path');
-    const fs = require('fs');
-
-    const fullPath = path.join(process.cwd(), 'content', 'pages', pageIdx + '.md');
-    const md = await fs.promises.readFile(fullPath, 'utf8');
-
-    return {
-        props: {
-            md
-        }
-    };
-}

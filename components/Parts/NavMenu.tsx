@@ -1,6 +1,7 @@
 import CallToAction from "components/Elements/CallToAction";
 import H2 from "components/Elements/H2";
 import Icon from "components/Elements/Icon";
+import Logo from "components/Elements/Logo";
 import Link from "next/link";
 
 interface IProps {
@@ -18,7 +19,7 @@ const NavMenu = (props: IProps) => {
         {/* MENU */}
         <div className='fixed z-30 top-0 h-screen w-screen bg-background bg-bouquet bg-no-repeat bg-left bg-bottom'>
             <div className='h-16 bg-white flex justify-between items-center px-3'>
-                <div><img src='/images/header-logo.svg' width='140' /></div>
+                <Logo />
                 <div onClick={() => {setMenuOpen(false)}}><Icon name='close'/></div>
             </div>
 
@@ -39,7 +40,7 @@ const NavMenu = (props: IProps) => {
 
 
             <div className='w-screen h-2 overflow-hidden absolute bottom-0'>
-                <img src='/images/header-stripe.svg' height='2' />
+                <img alt='' src='/images/header-stripe.svg' height='2' />
             </div>
 
         </div>

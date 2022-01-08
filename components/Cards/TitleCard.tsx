@@ -1,12 +1,15 @@
 interface IProps {
-    children: any
+    className?: string;
+    children: any;
 }
 
 const TitleCard = (props: IProps) => {
 
+    const defaultClasses = 'py-10 bg-no-repeat bg-left bg-cover';
 
-    return <div className='py-10 bg-initial bg-no-repeat bg-left bg-cover'>
-        <div className='w-full h-[100px]'>&nbsp;</div>
+    const classes = [props.className, defaultClasses].join(' ');
+
+    return <div className={classes}>
         {props.children}
     </div>
 }
