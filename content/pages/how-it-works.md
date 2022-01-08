@@ -194,3 +194,5 @@ Bo tudi tvoja poroka srečna
 zgodba?
 
 ::CallToAction[Pripravi svoj Weddingo zdaj]
+
+:::
