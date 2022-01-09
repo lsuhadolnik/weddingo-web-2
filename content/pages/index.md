@@ -3,12 +3,15 @@ path: ''
 ---
 
 
-:::TitleCard{class='bg-how-it-works'}
+:::::TitleCard{class='bg-wedding'}
+
+
+
+::::Container
+:::Column
 
 ::Spacer
 # Da bo tvoja poroka trajala dlje
-
-
 
 Weddingo je tvoja rešitev za prekratek poročni dan
 
@@ -16,14 +19,28 @@ Weddingo je tvoja rešitev za prekratek poročni dan
 
 :::
 
+::Column[:Video[/intro.webm]]
+
+::::
+
+
+:::::
 
 
 
-::FullWidth[![The alt text](/images/pattern.svg)]
 
 ::Spacer
 
+
+
+
+:::::Container{cols=1}
+
 # Zakaj Weddingo?
+
+
+::::Collection
+
 
 :::Card
 
@@ -47,8 +64,16 @@ Poleg vaju in ekipe pa so tu še svatje, ki imajo svoje telefone ves čas v žep
 
 :::
 
+::::
+
 ::SpacerHalf
+
+
 # Kaj menijo uporabniki
+
+::::Collection
+
+
 
 :::Card
 
@@ -105,26 +130,48 @@ To, da so se na televiziji vrtele slike od svatov, je neverjetno popestrilo vzdu
 
 :::
 
+::::
+
 
 ::Spacer
 # Ker cenimo tvojo zasebnost,
 
 bo tvoj Weddingo ...
 
+::::Collection
+
+:::Card
+::Spacer
+
 #### SAMO TVOJ
 Do fotografij lahko dostopate samo
 ženin nevesta in svatje.
 
+:::
+
+:::Card
+::Spacer
 #### PO TVOJEM OKUSU
 Oseba, ki jo pooblastita 
 ženin in nevesta, lahko med 
 dogodkom odstranjuje neželene 
 fotografije.
 
+:::
+
+:::Card
+::Spacer
 #### IN BO OSTAL ZAŠČITEN.
 Slike se po tvoji potrditvi
 popolnoma izbrišejo iz strežnikov.
 zato v prihodnosti ne more priti do
 zlorab.
 
+:::
+
+::::
+
 ::CallToAction[Pripravi svoj Weddingo zdaj]
+
+
+:::::

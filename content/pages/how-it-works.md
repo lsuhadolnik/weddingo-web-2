@@ -16,7 +16,7 @@ vzdušje na poroki, mladoporočencema omogoči hiter dostop do spominov in izdel
 
 :::
 
-
+::::Collection
 :::Card
 
 ::CardIcon[camera]
@@ -27,16 +27,29 @@ telefoni
 Slike nalagajo na Weddingo, kjer lahko
 pregledujejo tudi slike drugih svatov.
 
+:::
+
+:::Card
+
+::CardIcon[camera]
+
 Weddingo je aktiven že pred poroko in še nekaj dni po poroki, tako da lahko svatje in mladoporočenca slike vidijo takoj
 
 Mladoporočenca lahko iz slik nato
 enostavno pripravita lep album,
 pripravljen za tiskanje.
-
 :::
 
+::::
+
 ::Spacer
+
+
+::::Collection
+
+:::PaleCard
 # Kako sta Mojca in Lovro uporabila Weddingo
+:::
 
 :::Card
 
@@ -136,12 +149,19 @@ Nato sta iz Weddinga prenesla še načrt za majhne trikotne lističe, ki sta jih
 
 :::
 
+::::
+
 ::Spacer
+
+::::Collection
+
+:::PaleCard
 # Na poročni dan
+:::
 
-:::Card
+:::PaleCard
 
-::Spacer
+
 
 Pavel, ženinova priča, je od doma 
 prinesel tablični računalnik in ga 
@@ -161,14 +181,17 @@ Weddingo je bil kmalu poln lepih
 spominov.
 
 :::
+::::
 
 ::Spacer
-# Naslednji dan
 
+::::Collection
+:::PaleCard
+# Naslednji dan
+:::
 
 :::Card
 
-::Spacer
 
 Mladoporočenca sta se zbudila pozno. Bila sta še zelo zaspana, hkrati pa žalostna, da je poroke že konec.
 
@@ -182,6 +205,7 @@ pripravila digitalni album in ga poslala svatom.
 Vsi so bili zelo veseli.
 
 :::
+::::
 
 
 :::TitleCard{class='bg-party-popper'}

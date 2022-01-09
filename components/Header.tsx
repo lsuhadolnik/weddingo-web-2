@@ -12,7 +12,7 @@ const Header = (props: IProps) => {
     return <div className={styles.HeaderWrap}>
         <h1 className={styles.Header}>{first}</h1>
         <div className={styles.SubHeader}>{second}</div>
-    </div>;
+    </div>
 }
 
 export default Header;

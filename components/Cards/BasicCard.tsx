@@ -1,3 +1,5 @@
+import PaleCard from "./PaleCard";
+
 interface IProps {
     className?: string;
     children: any;
@@ -5,11 +7,11 @@ interface IProps {
 
 const BasicCard = (props: IProps) => {
 
-    const defaultClasses = 'my-10 pb-10 bg-white';
+    const defaultClasses = 'bg-white';
 
-    return <div className={[defaultClasses, props.className].join(' ')}>
-        {props.children};
-    </div>
+    return <PaleCard className={[defaultClasses, props.className].join(' ')}>
+        {props.children}
+    </PaleCard>
 }
 
 export default BasicCard;
