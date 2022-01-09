@@ -1,5 +1,6 @@
 import BasicCard from "components/Cards/BasicCard";
 import PaleCard from "components/Cards/PaleCard";
+import SideImageCard from "components/Cards/SideImageCard";
 import TitleCard from "components/Cards/TitleCard";
 import CallToAction from "components/Elements/CallToAction";
 import CardIcon from "components/Elements/CardIcon";
@@ -64,7 +65,7 @@ const MasterLoader = (props: IProps) => {
         Collection,
         Video: (props: DirectiveProps) => <Video src={props.children} />,
         Lottie: (props: DirectiveProps) => <Lottie src={props.children} />,
-        Container: (props: DirectiveProps) => <Container columns={props.node.properties.cols || 2}>{props.children}</Container>, 
+        Container: (props: DirectiveProps) => <Container columns={parseInt(props.node.properties.cols || '2', 10) || 2}>{props.children}</Container>, 
         Column: (props: DirectiveProps) => <Column className={props.node.properties.class}>{props.children}</Column>,
     };
 

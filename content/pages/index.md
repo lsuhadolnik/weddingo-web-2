@@ -1,5 +1,6 @@
 ---
 path: ''
+title: 'Prva stran'
 ---
 
 

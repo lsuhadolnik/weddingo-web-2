@@ -36,17 +36,29 @@ const Nav = (props: IProps) => {
 
     return <>
         {/* HEADER */}
-        <div className='fixed z-10'>
-            <div className='h-16 bg-white flex justify-between items-center px-3'>
+        <div className='fixed z-10 w-screen'>
+            <div className='h-16 lg:h-24 bg-white flex justify-between items-center px-3 lg:px-8'>
                 <div><Logo /></div>
-                <div onClick={() => {setMenuOpen(true)}}><Icon name='menu' /></div>
+                <div className='md:hidden' onClick={() => {setMenuOpen(true)}}><Icon name='menu' /></div>
+                <div className='hidden md:flex md:gap-3 font-body mr-6'>
+                    {NavItems.map(n => <Link key={n.link} href={n.link}>
+                        <div className='hover:text-red cursor-pointer text-lg px-4'>{n.title}</div>
+                    </Link>)}
+                </div>
             </div>
-            <div className='w-screen h-2 overflow-hidden'>
+
+
+
+            {/* STRIPE*/}
+            <div className=' h-2 overflow-hidden'>
                 <img alt='' src='/images/header-stripe.svg' height='2' />
             </div>
+
+            
         </div>
         <div className='h-16' >&nbsp;</div>
         {/* END HEADER */}
+
 
         {menuOpen && <NavMenu 
             openState={openState} 

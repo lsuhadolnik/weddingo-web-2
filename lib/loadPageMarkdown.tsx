@@ -6,7 +6,8 @@ const loadPageMarkdown = async ({ params: { pageIdx } }: {params: {pageIdx: stri
 
     return {
         props: { 
-            markdown: k.content
+            markdown: k.content,
+            data: k.data,
         }
     };
 

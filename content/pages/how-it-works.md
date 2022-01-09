@@ -1,8 +1,14 @@
 ---
 path: 'how-it-works'
+title: 'Kako deluje'
 ---
 
-:::TitleCard{class='bg-how-it-works'}
+:::::TitleCard{class='bg-wedding'}
+
+
+::::Container
+:::Column
+
 ::Spacer
 # Kako deluje?
 
@@ -16,40 +22,25 @@ vzdušje na poroki, mladoporočencema omogoči hiter dostop do spominov in izdel
 
 :::
 
-::::Collection
-:::Card
-
-::CardIcon[camera]
-
-Svatje na poroki slikajo s svojimi
-telefoni
-
-Slike nalagajo na Weddingo, kjer lahko
-pregledujejo tudi slike drugih svatov.
-
-:::
-
-:::Card
-
-::CardIcon[camera]
-
-Weddingo je aktiven že pred poroko in še nekaj dni po poroki, tako da lahko svatje in mladoporočenca slike vidijo takoj
-
-Mladoporočenca lahko iz slik nato
-enostavno pripravita lep album,
-pripravljen za tiskanje.
-:::
+::Column[:Video[/intro.webm]]
 
 ::::
+
+
+:::::
+
+
+:::::::Container{cols=1}
+
+
 
 ::Spacer
 
 
+# Kako sta Mojca in Lovro uporabila Weddingo
+
 ::::Collection
 
-:::PaleCard
-# Kako sta Mojca in Lovro uporabila Weddingo
-:::
 
 :::Card
 
@@ -153,13 +144,12 @@ Nato sta iz Weddinga prenesla še načrt za majhne trikotne lističe, ki sta jih
 
 ::Spacer
 
-::::Collection
 
-:::PaleCard
 # Na poročni dan
-:::
 
-:::PaleCard
+
+
+:::Card{image='/images/tv1.jpg'}
 
 
 
@@ -181,14 +171,13 @@ Weddingo je bil kmalu poln lepih
 spominov.
 
 :::
-::::
+
+
 
 ::Spacer
 
-::::Collection
-:::PaleCard
 # Naslednji dan
-:::
+
 
 :::Card
 
@@ -205,18 +194,28 @@ pripravila digitalni album in ga poslala svatom.
 Vsi so bili zelo veseli.
 
 :::
-::::
 
 
-:::TitleCard{class='bg-party-popper'}
+
+
+:::::::
+
+
+
+::::TitleCard{class='bg-party-popper'}
 
 ::Spacer
 
+
+:::Container{cols=1}
 # Kaj pa ti?
 
 Bo tudi tvoja poroka srečna 
 zgodba?
 
+
 ::CallToAction[Pripravi svoj Weddingo zdaj]
 
 :::
+
+::::
