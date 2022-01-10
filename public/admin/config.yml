@@ -15,7 +15,8 @@ collections:
     create: true # Allow users to create new documents in this collection
     slug: "{{path}}"
     fields: # The fields for each document, usually in front matter
-      - {label: "Path", name: "path", widget: "string"}
+      - {label: "Path", name: "path", widget: "string", required: false}
+      - {label: "Title", name: "title", widget: "string", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "sitePart" # Used in routes, e.g., /admin/collections/blog
     label: "Site Part" # Used in the UI
