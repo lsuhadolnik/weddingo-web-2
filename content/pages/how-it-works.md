@@ -22,7 +22,7 @@ vzdušje na poroki, mladoporočencema omogoči hiter dostop do spominov in izdel
 
 :::
 
-::Column[:Video[/intro.webm]]
+::Column[:Video{src='/intro.webm' fallback='/intro.png'}]
 
 ::::
 
@@ -66,7 +66,7 @@ pripravila nov dogodek.
 
 Svoj dogodek sta poimenovala 
 "Poroka Mojca in Lovro" in vnesla 
-še datum poroke,
+še datum poroke.
 
 
 :::
@@ -78,9 +78,9 @@ Svoj dogodek sta poimenovala
 
 ## Nalaganje prvih fotografij
 
-Naložila sta nekaj svojih slik iz 
-predporočnega fotografiranja, da bi 
-svatje bolje razumeli, kako deluje.
+Na Weddingo sta naložila nekaj svojih slik iz 
+predporočnega fotografiranja, da bi spodbudila 
+še svate, da delijo fotografije
 
 
 :::
@@ -134,8 +134,7 @@ Weddingo.
 ![Cards with QR Codes](/images/standingPrintlets.svg)
 ## Priprava lističev za na mize
 
-Nato sta iz Weddinga prenesla še načrt za majhne trikotne lističe, ki sta jih postavila na mize, da bi svatje čim večkrat opazili QR kodo.
-
+Nato sta s pomočjo Weddinga natisnila QR kode, ki sta jih postavila na mize, da bi jih svatje čim večkrat opazili.
 
 
 :::

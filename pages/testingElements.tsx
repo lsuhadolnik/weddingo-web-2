@@ -26,6 +26,11 @@ const Home: NextPage = (props: any) => {
                 <title>Weddingo</title>
             </Head>
 
+
+            {/** KEEP THIS LINE!!! IT MUST STAY TO TELL TailwindCSS not to purge some additional classes which are applied dynamically */}
+            <div className='md:grid-cols-1 md:grid-cols-2 md:grid-cols-3 md:grid-cols-4 md:grid-cols-5 md:grid-cols-6' />
+            <div className="bg-wedding bg-party-popper bg-box bg-heart bg-bouquet bg-how-it-works" />
+
             {/*<div className='h-1/4'>
                 <div className='relative h-full'>
                 <Image src='/images/icons.svg' layout='responsive' width={375} height={150} objectFit='cover' objectPosition='cover'/>
@@ -47,7 +52,7 @@ const Home: NextPage = (props: any) => {
                 </P>
             </IconCard>
 
-            <div className="bg-wedding bg-party-popper bg-box bg-heart bg-bouquet bg-how-it-works" />
+            
 
 
             {/* EMPTY CARD WITH CALL TO ACTION */}

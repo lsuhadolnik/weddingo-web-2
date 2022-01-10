@@ -6,7 +6,7 @@ const MasterPage = (props: any) => {
 
     return <Layout>
         <Head>
-            <title>{props.data.title ? props.data.title + ' |' : ''} | Weddingo</title>
+            <title>{props.data.title ? props.data.title + ' | ' : ''}Weddingo</title>
         </Head>
         <MasterLoader markdown={props.markdown} />
     </Layout>

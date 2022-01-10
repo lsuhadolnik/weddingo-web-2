@@ -63,7 +63,7 @@ const MasterLoader = (props: IProps) => {
         Image,
         FullWidth,
         Collection,
-        Video: (props: DirectiveProps) => <Video src={props.children} />,
+        Video: (props: DirectiveProps) => <Video src={props.node.properties.src} fallback={props.node.properties.fallback} />,
         Lottie: (props: DirectiveProps) => <Lottie src={props.children} />,
         Container: (props: DirectiveProps) => <Container columns={parseInt(props.node.properties.cols || '2', 10) || 2}>{props.children}</Container>, 
         Column: (props: DirectiveProps) => <Column className={props.node.properties.class}>{props.children}</Column>,

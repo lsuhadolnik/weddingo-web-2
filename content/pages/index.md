@@ -20,7 +20,7 @@ Weddingo je tvoja rešitev za prekratek poročni dan
 
 :::
 
-::Column[:Video[/intro.webm]]
+::Column[:Video{src=/intro.webm fallback=/intro.png}]
 
 ::::
 
@@ -163,10 +163,7 @@ fotografije.
 :::Card
 ::Spacer
 #### IN BO OSTAL ZAŠČITEN.
-Slike se po tvoji potrditvi
-popolnoma izbrišejo iz strežnikov.
-zato v prihodnosti ne more priti do
-zlorab.
+Slike se po tvoji potrditvi popolnoma izbrišejo iz strežnikov, zato v prihodnosti ne more priti do zlorab.
 
 :::
 
