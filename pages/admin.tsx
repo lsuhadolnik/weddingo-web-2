@@ -32,7 +32,7 @@ const admin = (props: IProps) => {
     return <>
         <Head>
             <link href="/admin/config.yml" type="text/yaml" rel="cms-config-url" />
-            <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+            <script async src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
         </Head>
         <CMS />
     </>
